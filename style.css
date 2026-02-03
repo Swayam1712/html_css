@@ -1,0 +1,38 @@
+h1{
+    color:black;
+/*background-color: black;*/
+text-align: center;
+font-family: serif,ddots;
+}
+
+p{
+    color: ffff;
+    background: rgb(238, 236, 236);
+    text-align: left;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size:12px;
+    font-family: Arial, sans-serif;
+    
+
+
+}
+h2{
+
+   /* border: 2px;
+    width: 100%;*/
+    color:#eb0d0d;
+text-align: center;
+font-size: 50px;
+font-family:fantasy,cursive;
+
+}
+button{
+    background-color: blue;
+    color: white;
+    
+}
+
+ 
+
+
