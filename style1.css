@@ -1,0 +1,42 @@
+input[type="text"]{
+    color:red;
+}
+  input [type="password"]{
+    color:#00ff11; 
+    }
+
+    /*pseudo class */
+    button:hover{
+    background-color:lightblue;
+    color:black;
+    color:red;
+    }
+
+    button:active{
+    background-color:yellow;
+    
+
+    }
+
+    p:active{
+        font-weight:bold;
+        color:green
+    }
+   input[type="radio"]:checked + label{
+    background-color:green;
+    color:white;
+    font-weight:bold;
+   }
+    p:nth-of-type(odd){
+    background-color:#ff0000;
+    }
+p:nth-of-type(3n){
+    background-color:#00ff00;
+    }
+
+
+    /* pseudo elements*/
+    p::first-letter{
+    font-size: 200%;
+    color: blue;
+    }
