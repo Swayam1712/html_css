@@ -9,6 +9,7 @@ div{
     border-left-style:dashed;
     border-radius: 30px;
     padding-top: 10px;
+    margin-bottom: 10px;
     
     
 }
@@ -28,3 +29,4 @@ div{
     color: black;
     padding: 10px 20px;
    }
+
