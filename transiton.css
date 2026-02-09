@@ -1,0 +1,41 @@
+/*div{
+    height:100px;
+    width:100px;
+    background-color: rgb(243, 157, 157);
+    margin : 0 auto;
+    margin-top: 10px;
+     transition: margin-top 2s ease-in-out 0.2s;
+     transform: rotate(45deg);
+   
+}
+  div:hover{
+    margin: top 400px;
+    background-color: brown;
+  }*/
+
+  section{
+    margin: top 100px;
+
+  }
+    div{
+        width:200px;
+        height:50px;
+        text-align: center;
+        background-color: rgb(243, 157, 157);
+        border:2px solid black;
+        margin: 10px;
+        padding: 20px;
+
+    }
+     div:nth-of-type(2n){
+        background-color: rgb(157, 243, 243);   
+        
+     }
+      div:nth-of-type(3n){
+        background-color: rgb(157, 243, 157);
+      }
+
+      #one{
+        transform: rotate(45deg);
+        
+      }

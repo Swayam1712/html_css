@@ -10,9 +10,15 @@ div{
     border-radius: 30px;
     padding-top: 10px;
     margin: 10px 20px 30px 40px;
-    
+    transition: 1s;
+    margin-top: 100px;
+    margin :  0 auto;
 
-    
+}
+div:hover{
+    background-color: rgb(157, 243, 243);
+    border-radius: 100px;
+  
     
 }
   h1 {
@@ -31,6 +37,8 @@ div{
     background-color: #f49fdd;
     color: rgba(0, 0, 0, 0.5);
     padding: 10px 20px;
+
    }
      
+
 
