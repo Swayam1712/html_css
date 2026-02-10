@@ -1,0 +1,10 @@
+div{
+    width: 700px;
+    height: 500px;
+    margin:20px;
+
+    
+    background-color: rgb(243, 157, 157);
+    background-image: url('bgimg.jpg.jpg');
+    background-size: cover;
+}
