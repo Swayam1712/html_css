@@ -8,7 +8,7 @@
     background-image: url('bgimg.jpg.jpg');
     background-size: cover;
 }*/
-div{
+/*div{
     width: 100px;
     height: 100px;
     margin:20px;
@@ -20,4 +20,54 @@ div{
 
 
 
+}*/
+.face{
+    width: 400px;
+    height:400px;
+    background-color:#f2f27f;
+    border-radius: 100%;
+    position:relative;
+    left:200px;
+    top: 100px;
+
 }
+.mouth{
+    width:200px;
+    height:75px;
+    background-color: brown;
+    border-radius:0 0 50px 50px;
+    position:absolute;
+    left: 95px;
+    top:240px;
+
+
+
+}
+  #leye{
+     width: 50px;
+    height:50px;
+    background-color:hsl(0, 82%, 40%);
+    border-radius: 100%;
+    position:absolute;
+
+    
+    right: 270px;
+    top:100px;
+    
+    
+  }
+  
+  #reye{
+     width: 50px;
+    height:50px;
+    background-color:hsl(0, 92%, 36%);
+    border-radius: 100%;
+    position:absolute;
+
+    
+    left: 250px;
+    top: 100px;
+    
+    
+  }
+  
