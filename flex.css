@@ -4,8 +4,8 @@ body{
 
 }
  div{
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 300px;
     
     border:2px solid black;
     display:inline-block;
@@ -14,8 +14,11 @@ body{
     width:800px;
     height: 400px;
     display:flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-start;
+    flex-wrap:wrap-reverse;
+    align-items: center;
+    ;
 
 }
 #box1{
