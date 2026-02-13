@@ -14,25 +14,32 @@ body{
     width:800px;
     height: 400px;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-start;
-    flex-wrap:wrap-reverse;
-    align-items: center;
+    /* flex-wrap:wrap;
+    /* align-items: baseline; */
+    /* align-content: flex-space-between; */
+
     ;
 
 }
 #box1{
     background-color: rgb(243, 157, 157);
+   
 }   
 #box2{
     background-color: rgb(157, 243, 157);
+    /* flex-basis: 900px; */
 }
 #box3{
     background-color: rgb(157, 157, 243);
+     align-self: flex-end;
 }
 #box4{
     background-color: rgb(243, 243, 157);
+    flex-grow: 1;
 }   
 #box5{
     background-color: rgb(243, 157, 243);
+    flex: 2 2 500px;
 }
