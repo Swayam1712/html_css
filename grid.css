@@ -9,6 +9,7 @@
     grid-template-columns: 100px 100px 100px;
     row-gap: 20px;
     column-gap: 30px;
+    justify-items: right;
     
 
 
@@ -22,9 +23,8 @@
     text-align: center;
 
 }
-#one{
-    grid-column-start: 1;
+/* #one{
+    /* grid-column-start: 1;
     grid-column-end: 4;
-}
-   
-   
+
+} */

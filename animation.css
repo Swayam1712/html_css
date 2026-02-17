@@ -1,0 +1,9 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+@keyframes swayam{
+    from{font-size: 20px;}
+    to{font-size: 50px;}
+}
