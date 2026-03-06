@@ -134,3 +134,6 @@ transform: scale(1.2);
 #checked:checked ~ .btn_one i{
     opacity:0;
 }
+#checked:checked ~ .sidebar_menu .btn_two{
+      opacity: 1PX;
+}
